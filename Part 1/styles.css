@@ -1,0 +1,103 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Section with Flexbox */
+.header {
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.header .logo {
+    text-align: center;
+    font-size: 24px; /* Adjust the size as needed */
+}
+
+/* About Section */
+.about {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Skills Section with Flexbox */
+.skills {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: space-between; /* Flexbox spacing */
+    gap: 30px;
+    flex-wrap: wrap; /* Allow wrapping of skill items */
+}
+
+.skill {
+    background-color: #3498db;
+    padding: 20px;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+}
+
+/* Projects Section with Grid */
+.projects {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Flexible grid layout */
+    gap: 20px;
+}
+
+.project {
+    background-color: #2ecc71;
+    padding: 30px;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
