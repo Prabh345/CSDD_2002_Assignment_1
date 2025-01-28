@@ -3,20 +3,18 @@ In this part, I demonstrated my mastery of both Flexbox and Grid Layout by using
 
 Flexbox:
 display: flex
-justify-content: center, justify-content: space-between, justify-content: flex-end
-align-items: center, align-items: flex-start, align-items: flex-end
+justify-content: center, justify-content: space-between
+align-items: center, align-items: flex-start
 flex-wrap: wrap
 gap: 20px
-flex-direction: row, flex-direction: column
+flex-direction: row
 order for controlling item order
 
 Grid Layout:
 display: grid
 grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))
 gap: 20px
-grid-template-rows
 grid-column: span
-grid-row: span
 These properties were used to build and structure different sections of the website, including the header, about section, skills, and projects.
 
 Part 2: Portfolio Website using Flexbox and Grid
